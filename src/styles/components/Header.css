@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    min-height: 120px;
+    align-content: center;
+}
+
+    nav {
+        flex-basis: 70%;
+    }
+
+        .Nav_menu {
+            width: 100%;
+            position: relative;
+        }
+
+        .Nav_menu > a {
+            display: inline-block;
+            width: 33%;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+            .dropdown {
+                padding: 3% 0;
+                position: absolute;
+                top: 50px;
+                right: 0;
+                min-width: 66%;
+            }
+
+            .dropdown > ul {
+                display: inline-block;
+                width: 50%;
+                vertical-align: top;
+            }
+            
+            .dropdown li {
+                display: block;
+                padding: 10px;
+            }
+
+                .Quienes_somos li {
+                    font-weight: bold;
+                }
+
+                .Como_ayudar p {
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+ 
+            .hidden {
+                display: none;
+            }
+
+                

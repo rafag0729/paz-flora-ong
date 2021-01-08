@@ -1,0 +1,13 @@
+/*--GENERAL--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.content-wrapp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
