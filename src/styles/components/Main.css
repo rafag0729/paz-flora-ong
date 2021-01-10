@@ -1,0 +1,10 @@
+main {
+    flex-basis: 75%;
+    padding: 4%;
+    border: 2px solid gray;
+}
+
+.main_sidebar {
+    display: flex;
+    flex-flow: row wrap;
+}

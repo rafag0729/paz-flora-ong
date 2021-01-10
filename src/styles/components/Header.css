@@ -24,15 +24,17 @@ header {
         }
 
             .dropdown {
-                padding: 3% 0;
+                padding: 4% 0;
                 position: absolute;
                 top: 50px;
                 right: 0;
                 min-width: 66%;
+                background-color: grey;
             }
 
             .dropdown > ul {
                 display: inline-block;
+                padding-left: 5%;
                 width: 50%;
                 vertical-align: top;
             }

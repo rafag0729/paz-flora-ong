@@ -1,0 +1,5 @@
+aside {
+    flex-basis: 25%;
+    padding: 4%;
+    border: 2px solid blue;
+}

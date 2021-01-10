@@ -1,14 +1,17 @@
 import React from 'react';
-import './../styles/components/NavBar.css';
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";    
 
 export const NavBar = () => {
     return (
         <nav>
             <div className='Nav_menu'>
-                <a>PROYECTOS</a>
-                <a>QUIENES SOMOS</a>
-                <a>CÓMO NOS PUEDES AYUDAR</a>
-                <div className='dropdown hidden'>
+                <Link to="/Proyectos" >PROYECTOS</Link> 
+                <Link to="/QuienesSomos" >QUIENES SOMOS</Link> 
+                <Link to="/ComoAyudar" >CÓMO NOS PUEDES AYUDAR</Link> 
+                <div className='dropdown'>
                         <ul className='Quienes_somos'>
                             <li>Cómo nacimos?</li>
                             <li>Proposito con la comunidad</li>
@@ -24,7 +27,7 @@ export const NavBar = () => {
                             </li>
                             <li><p>Donacionaes</p>
                                 <ul>
-                                    <li>Dinero</li>
+                                    <li>Dinero***</li>
                                     <li>Insumos</li>
                                     <li>Pago de mano de obra</li>
                                 </ul>
@@ -34,8 +37,6 @@ export const NavBar = () => {
                         </ul>
                     </div>
             </div>
-
-                        
         </nav>
     )
 }
